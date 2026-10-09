@@ -22,6 +22,7 @@ int fromSupplementaryCode(const std::vector<int>& supplementary_code) {
     return number;
 }
 
+
 int main() {
     setlocale(LC_ALL, "RUS");
     std::vector<int> test_negative = {1, 1, 1, 1, 1, 0, 1, 1};
