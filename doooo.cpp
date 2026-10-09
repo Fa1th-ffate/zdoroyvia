@@ -1,0 +1,9 @@
+#include <iostream>
+#include <bitset>
+
+int main() {
+    int n = 13;
+    std::bitset<8> binary(n);
+    std::cout<< binary<<'\n';  // Вывод: 00001101
+    return 0;
+}
